@@ -27,10 +27,15 @@ p {
 
 /* Containers */
 
-.container-fluid{
-  padding: 7% 15%;
-}
 
+.col1{
+  width:50px;
+  height:100px;
+}
+.col2{
+  width:50px;
+  height:100px;
+}
 /* Sections */
 
 .colored-section {
@@ -40,8 +45,20 @@ p {
 
 .white-section {
   background-color: #fff;
-}
+  display:flex;
+  height:300px;
+  
+  margin:120px;
+  margin-bottom:0%;
+  padding-bottom:0%;
 
+}
+.col{
+  margin:0%;
+  padding:0px;
+  height:0px;
+  width:0px;
+}
 /* Navigation Bar */
 
 .navbar {
@@ -92,18 +109,11 @@ p {
 
 /* Features Section */
 
-#features {
-  position: relative;
-}
 
 .feature-title {
   font-size: 1.5rem;
 }
 
-.feature-box {
-  padding: 5.5%;
-  margin-right :100px;
-}
 
 .icon {
   color: #ef8172;
@@ -114,9 +124,11 @@ p {
   color:  #ffbd23;
 }
 
+
 /* Testimonial Section */
 
 #testimonials {
+  padding:50px;
   background-color:  #ffbd23;
 }
 
@@ -126,7 +138,7 @@ p {
 }
 
 .testimonial-image {
-  width: 10%;
+  width: 10%; 
   border-radius: 100%;
   margin: 20px;
 }
@@ -144,7 +156,7 @@ p {
 
 /* Pricing Section */
 
-#pricing {
+.pricing {
   padding: 100px;
 }
 
@@ -161,6 +173,12 @@ p {
 
 
 /* Footer Section */
+.footers{
+  width:300px;
+  height:100px;
+  align-items: center;
+  margin-left:350px;
+}
 
 
 .social-icon {
@@ -173,8 +191,5 @@ p {
     text-align: center;
   }
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
+ 
 }

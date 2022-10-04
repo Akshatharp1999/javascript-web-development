@@ -1,0 +1,356 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255,255,255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+.logo{ 
+    width: 40px;
+    height:40px;
+    margin: 15px;
+    border-radius:50px;
+    background-color: rgba(255, 0, 93, 0.897);
+}
+img{
+    width:250px;
+    height:300px;
+    border-radius:200px;
+}
+.index{
+    display:flex;
+    justify-content: center;
+    margin:100px;
+    margin-top:0px;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    margin: 5px 10px;
+}
+
+h1 {
+    font-size: 130px;
+    font-weight: 700;
+    margin: 0;
+}
+h1:hover{
+    color:rgb(0, 255, 200);
+}
+h2 {
+    margin: 3px;
+    font-weight: 300;
+    text-align: center;
+}
+#whoami{
+    font-size: 30px;
+    font-weight:lighter;
+    color: rgba(255, 0, 93, 0.897);
+}
+h3 {
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section {
+    margin-top: 0px;
+    text-align:center;
+}
+
+
+
+footer {
+    margin-top: 60px;
+    bottom: 200px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+
+@media only screen and (max-width: 650px) {
+    h1{
+        font-size:90px;
+    }
+    #whoami{
+        font-size: 25px;
+       
+    }
+}
+
+
+
+a:hover {
+    color: rgb(255, 196, 0);
+    font-weight:bold ;
+}
+
+/*work page*/
+
+.work-details {
+    width: 50%;
+}
+.work-table:hover{
+    background-color: rgba(255, 0, 93, 0.897);
+   
+}
+.work-details td {
+    padding: 40px;
+    
+}
+.website{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.website:hover{
+    background-color:rgba(255, 149, 0, 0.629);
+    color:black;
+}
+@media only screen and (max-width: 600px) {
+    .work-details {
+        width: 80%;
+    }
+
+    .work-details td {
+        padding: 5px;
+    }
+}
+
+/*about me*/
+
+.about-me {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me img {
+    height: 200px;
+    border-radius: 50%;
+    margin: 40px 10px 10px 10px;
+}
+
+.about-card{
+    display:flex;
+    justify-content: center;
+    margin:50px;
+    justify-items: center;
+}
+.skills{
+    width:220px;
+    height: auto;
+    margin:10px;
+    font-weight: 100;
+    
+}
+#skills:hover{
+    font-weight:bolder;
+    color:black;
+}
+.skills:hover{
+    background-color: rgb(255, 140, 0);
+    color:white;
+    padding-top: 25px;
+}
+
+.experience{
+    width:220px;
+    height: auto;
+    margin:10px;
+    font-weight: 200;
+}
+.experience:hover{
+    background-color: rgb(255, 140, 0);
+    color:white;
+    padding-top: 25px;
+}
+#experience:hover{
+    font-weight:bolder;
+    color:black;
+}
+
+.education{
+    width:220px;
+    height: auto;
+    margin:10px;
+    font-weight: 200;
+}
+.education:hover{
+    background-color: rgb(255, 140, 0);
+    color:white;
+    padding-top: 25px;
+}
+#education:hover{
+    font-weight:bolder;
+    color:black;
+  
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+}
+.about-card li{
+    margin-top:10px;
+    margin-bottom:10px ;
+}
+span:hover{
+  color:rgb(255, 230, 0);
+  font-weight:bold;
+}
+
+@media only screen and (max-width: 650px) {
+    .about-card{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:20px;
+        justify-items: center;
+    }
+}
+
+
+/* contact page */
+
+.form-submit {
+    width: 50%;
+}
+
+.form-submit form {
+    width: 100%;
+}
+
+.form-submit .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-control {
+    width: 50%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 0;
+}
+
+.form-row .form-control:focus,
+.form-submit textarea:focus {
+    outline: 0;
+    background-color: rgb(249, 234, 185);
+}
+
+.form-submit textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    border: none;
+    padding: 0;
+    resize: none;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+form button {
+    width: 100%;
+    background-color: rgb(255, 140, 0);
+    color:white;
+    color: rgb(255,255,255);
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#download-cv{
+    margin-top:30px;
+    height: 50px;
+    width:200px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(0, 255, 200);
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    display:none;
+}
+@media only screen and (max-width: 600px) {
+    .form-submit {
+        width: 80%;
+    }
+
+    .form-submit .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row .form-control {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
